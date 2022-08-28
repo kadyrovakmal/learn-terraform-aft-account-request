@@ -3,20 +3,20 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "lukas.kuckelkorn@capgemini.com"
-    AccountName               = "test-aft"
-    ManagedOrganizationalUnit = "AFT"
+    AccountName               = "aft-sandbix-account-01"
+    ManagedOrganizationalUnit = "Shared Services"
     SSOUserEmail              = "lukas.kuckelkorn@capgemini.com"
     SSOUserFirstName          = "Test"
     SSOUserLastName           = "Akmal"
-  }
+  } 
 
   account_tags = {
     "Learn Tutorial" = "AFT"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "Akmal Kadyrov"
+    change_reason       = "Provision a Sandbox account"
   }
 
   custom_fields = {
