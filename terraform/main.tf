@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "mtp.aws.aft.cis@capgemini.com"
+    AccountEmail              = "lukas.kuckelkorn@capgemini.com"
     AccountName               = "test-aft"
     ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "kadyrovakmal@gmail.com"
+    SSOUserEmail              = "lukas.kuckelkorn@capgemini.com"
     SSOUserFirstName          = "Test"
     SSOUserLastName           = "Akmal"
   }
