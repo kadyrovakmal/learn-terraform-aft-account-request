@@ -5,9 +5,9 @@ module "sandbox" {
     AccountEmail              = "mtp.aws.aft.cis@capgemini.com"
     AccountName               = "test-aft"
     ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "akmal.kadyrov@capgemini.com"
+    SSOUserEmail              = "kadyrovakmal@gmail.com"
     SSOUserFirstName          = "Test"
-    SSOUserLastName           = "AFT"
+    SSOUserLastName           = "Akmal"
   }
 
   account_tags = {
